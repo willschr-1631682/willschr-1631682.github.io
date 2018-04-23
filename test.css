@@ -1,11 +1,20 @@
 #Header {
-	border: solid 8px black;
+	border: solid 8px pink;
 	outline: #4CAF50 solid 10px;
 	width: 500px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 10px;
-	text-align: center;
+	text-align: right;
+}
+#field {
+	border: solid 8px pink;
+	outline: #4CAF50 solid 10px;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	text-align: right;
 }
 
 #LeftNav {
@@ -27,9 +36,10 @@
 	padding: 15px;
 }
 
-#Footer {
+h2 {
 	border: solid 8px black;
 	text-align: center;
+	color: green;
 }
 
 ul {
@@ -55,18 +65,21 @@ div {
 }
 
 body {
-	background-color: gold;
+	background-color: pink
+	text-align: center;
+	padding: 20px;
 }
 
-h3 {
+fieldset {
 	color: #FFBC00;
 	font-size: 40px;
 	font-family: "Passion One";
-	margin-bottom: 0px;
+	margin-bottom: 50px;
+	text-align: center;
 }
 
-a {
-	color: white;
+field {
+	color: pink;
 	font-weight: bold;
 	font-size: 24px;
 }
